@@ -50,7 +50,7 @@ function HeroSection() {
             </div>
            
             <span className=" text-pink-500">{personalData.name}</span><br></br>
-            <span className=" text-[#551BDC]" style={{fontSize:"24px",fontWeight:"normal"}}>{personalData.designation}</span><br></br>
+            <span className=" text-[#844fff]" style={{fontSize:"24px",fontWeight:"normal"}}>{personalData.designation}</span><br></br>
             <span className=" text-[#E3E3E3]" style={{fontSize:"17px",fontWeight:"normal",display:"block",height:"50px",lineHeight:"2"}}>In the rapidly evolving field of IT, there is always something new to learn, whether it is a programming language, a new framework, or emerging technologies like artificial intelligence and cloud computing. IT is the field in which I like to grow erverday</span>
             
           </h1>

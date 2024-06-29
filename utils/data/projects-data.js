@@ -12,29 +12,29 @@ export const projectsData = [
     },
     {
         id: 2,
+        name: 'SK Platform ',
+        description: 'A platform designed to streamline Food services and other customer services',
+        tools: ['JS', 'Tailwind CSS', "Flutter", "PHP", "Node JS", "MySQL", "AWS S3", "GCP - Firebase", "Swift", "Kotlin","PHP"],
+    },
+    {
+        id: 3,
         name: 'Doctors Platform ',
         description: 'A digital platform designed to streamline healthcare services for both patients and medical professionals',
         tools: ['JS', 'Tailwind CSS', "Google Maps", "PHP", "Node JS", "MySQL", "AWS S3", "GCP - Firebase", "Swift", "Kotlin"],
     },
     {
-        id: 3,
+        id: 4,
         name: 'Real Estate Platform',
         description: 'A dynamic digital solution designed to transform the way properties are bought, sold, and rented.',
-        tools: ['JS', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'SQL', 'Nginx', 'Flutter', 'PHP', 'Google Maps','Firebase','AWS', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-        image: realEstate,
+        tools: ['JS', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'MYSQL', 'Nginx', 'Flutter', 'PHP', 'Google Maps','Firebase','AWS', 'JWT'],
+
     },
     {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
+        id: 5,
+        name: 'Beba City',
+        description: "A Platfrom for residential compound for deliver services",
+        tools: ['Laravel', 'Material UI', 'Strip', 'Flutter', "JWT","Firebase","Nginx","MySQL","Bootstrap","JS","Bash","Node JS","OneSignal"],
+      
     }
 ];
 

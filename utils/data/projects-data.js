@@ -52,8 +52,15 @@ export const projectsData = [
     },
     {
         id: 8,
+        name: 'Ticket System',
+        description: "A solution for creating requests and follow up for each request progrestions and other functionalities",
+        tools: ["PHP","MySQL","JS","Bootstrap","AWS","Bash","Mail Service"],
+      
+    },
+    {
+        id: 9,
         name: 'Others',
-        description: "Many other projects and ideas can be present such LMS, HRM, CRM and other domains based on your need",
+        description: "Many other projects and ideas can be presented such LMS, HRM, CRM, Food delivery and other domains based on your need",
         tools: ["Others"],
       
     }

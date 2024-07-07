@@ -31,11 +31,33 @@ export const projectsData = [
     },
     {
         id: 5,
-        name: 'Beba City',
+        name: 'Smart compounds',
         description: "A Platfrom for residential compound for deliver services",
         tools: ['Laravel', 'Material UI', 'Strip', 'Flutter', "JWT","Firebase","Nginx","MySQL","Bootstrap","JS","Bash","Node JS","OneSignal"],
       
+    },
+    {
+        id: 6,
+        name: 'Zone Talk',
+        description: "A solution for audio/video calls from scratch with custom features for systems & metaverse projects",
+        tools: ['React', 'Spring boot', 'Sockets', 'Stun/Turn',"Nginx","Docker"],
+      
+    },
+    {
+        id: 7,
+        name: 'AI Agent',
+        description: "A solution customer services that prcoess text queries to voice traind data",
+        tools: ['ML models', 'Python', 'React', 'Chroma',"Nginx","AWS"],
+      
+    },
+    {
+        id: 8,
+        name: 'Others',
+        description: "Many other projects and ideas can be present such LMS, HRM, CRM and other domains based on your need",
+        tools: ["Others"],
+      
     }
+
 ];
 
 

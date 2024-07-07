@@ -38,7 +38,7 @@ function Experience() {
           </div> */}
 
           <div>
-            <div className="flex flex-col gap-6" style={{width:"800px"}}>
+            <div className="flex flex-col gap-6" >
               {
                 experiences.map(experience => (
                   <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>

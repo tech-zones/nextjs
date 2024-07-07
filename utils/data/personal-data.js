@@ -3,7 +3,7 @@ export const personalData = {
   profile: '/profile.png',
   designation: "Software - IT - DevOps - AI",
   description: "My name is Ayas Hussein. IT is a field in which I like to grow everyday",
-  email: 'ayastech7@gmail.com',
+  email: 'contact@ayastech.net',
   phone: '+971502508830',
   address: 'UAE & Iraq ',
   github: '',

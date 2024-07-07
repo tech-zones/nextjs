@@ -39,7 +39,7 @@ function ContactSection() {
       
       </div> */}
 
-<div className="sticky top-10">
+<div className="sticky top-10" style={{width:"450px"}}>
         <div className="w-[80px] h-[80px] bg-violet-100 rounded-full absolute -top-3 left-0 translate-x-1/2 filter blur-3xl  opacity-30"></div>
         <div className="flex items-center justify-start relative">
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md" style={{fontSize:"1.80rem",width:"100%"}}>
@@ -56,14 +56,14 @@ function ContactSection() {
     
     <div className="flex flex-col gap-5 lg:gap-9" style={{textAlign:"center"}}>
     
-            <p className="text-sm md:text-x flex items-center gap-3">
+            <p className="text-sm md:text-x flex items-center gap-3" style={{width:"200px"}}>
               <MdAlternateEmail
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#E126FA] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}
               />
               <span>{personalData.email}</span>
             </p>
-            <p className="text-sm md:text-x flex items-center gap-3">
+            <p className="text-sm md:text-x flex items-center gap-3" style={{width:"200px"}}>
               <IoMdCall
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#E126FA] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}
@@ -74,12 +74,12 @@ function ContactSection() {
             </p>
 
             
-            <p className="text-sm md:text-x flex items-center gap-3">
+            <p className="text-sm md:text-x flex items-center gap-3" style={{width:"200px"}}>
               <CiLocationOn
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#E126FA] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}
               />
-              <span>
+              <span >
                 {personalData.address}
               </span>
             </p>

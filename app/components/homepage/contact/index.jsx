@@ -3,7 +3,7 @@ import { personalData } from '@/utils/data/personal-data';
 import Link from 'next/link';
 import { BiLogoLinkedin } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
-import { FaFacebook, FaStackOverflow } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaStackOverflow } from 'react-icons/fa';
 import { FaLeetcode } from 'react-icons/fa';
 import { FaInstagram } from "react-icons/fa6";
 import { IoLogoGithub, IoMdCall } from "react-icons/io";
@@ -98,8 +98,8 @@ function ContactSection() {
                 size={48}
               />
             </Link>
-            <Link target="_blank" href={personalData.instagram}>
-              <FaInstagram
+            <Link target="_blank" href={personalData.github}>
+              <FaGithub
                 className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#E126FA] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={48}
               />

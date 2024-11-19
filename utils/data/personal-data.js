@@ -6,7 +6,7 @@ export const personalData = {
   email: 'contact@ayastech.net',
   phone: '+971502508830',
   address: 'UAE & Iraq ',
-  github: '',
+  github: 'https://github.com/tech-zones',
   facebook: '',
   linkedIn: 'https://www.linkedin.com/in/ayas-hussein-407857127',
   instagram:"https://www.instagram.com/eyas.h_abd/",
@@ -15,5 +15,5 @@ export const personalData = {
   stackOverflow: '',
   leetcode: "",
   devUsername: "ayas_tech_2b0560ee159e661",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  resume: ""
 }

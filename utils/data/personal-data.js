@@ -4,7 +4,7 @@ export const personalData = {
   designation: "Software - IT - DevOps - AI",
   description: "My name is Ayas Hussein. IT is a field in which I like to grow everyday",
   email: 'contact@ayastech.net',
-  phone: '+971502508830',
+  phone: '+971502508830 | +9647808135208',
   address: 'UAE & Iraq ',
   github: 'https://github.com/tech-zones',
   facebook: '',

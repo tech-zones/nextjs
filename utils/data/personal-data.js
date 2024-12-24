@@ -1,10 +1,11 @@
 export const personalData = {
   name: "Ayas Hussein",
   profile: '/profile.png',
-  designation: "Software - IT - DevOps - AI",
+  designation: "Sr. Software - IT - DevOps - AI Engineer",
   description: "My name is Ayas Hussein. IT is a field in which I like to grow everyday",
   email: 'contact@ayastech.net',
-  phone: '+971502508830 | +9647808135208',
+  phone: '+971502508830',
+  phone2: '+9647808135208',
   address: 'UAE & Iraq ',
   github: 'https://github.com/tech-zones',
   facebook: '',

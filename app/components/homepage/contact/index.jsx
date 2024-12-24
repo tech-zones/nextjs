@@ -63,13 +63,16 @@ function ContactSection() {
               />
               <span>{personalData.email}</span>
             </p>
-            <p className="text-sm md:text-x flex items-center gap-3" style={{width:"200px"}}>
+            <p className="text-sm md:text-x flex items-center gap-3" style={{width:"355px"}}>
               <IoMdCall
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#E126FA] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}
               />
               <span>
                 {personalData.phone}
+              </span> - 
+              <span>
+                {personalData.phone2}
               </span>
             </p>
 

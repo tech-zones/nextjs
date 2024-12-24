@@ -4,10 +4,11 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
+import { BiLogoLinkedin } from "react-icons/bi";
+import { FaFacebook, FaGithub, FaStackOverflow } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 
 function HeroSection() {
@@ -51,21 +52,41 @@ function HeroSection() {
            
             <span className=" text-pink-500">{personalData.name}</span><br></br>
             <span className=" text-[#844fff]" style={{fontSize:"24px",fontWeight:"normal"}}>{personalData.designation}</span><br></br>
-            <span className=" text-[#E3E3E3]" style={{fontSize:"17px",fontWeight:"normal",display:"block",height:"50px",lineHeight:"2"}}>In the rapidly evolving field of IT, there is always something new to learn, whether it is a programming language, a new framework, or emerging technologies like artificial intelligence and cloud computing. IT is the field in which I like to grow erverday</span>
+            <span className=" text-[#E3E3E3]" style={{fontSize:"17px",fontWeight:"normal",display:"block",height:"50px",lineHeight:"2"}}>Tech Expert with 10+ years of experience in full-stack development, SaaS platforms and other areas. Proven track record in delivering scalable solutions and driving innovation</span>
             
           </h1>
-
-          <div className="my-12 flex items-center gap-5" style={{marginTop:"90px"}}>
-          
+          <br></br>
+          <div className="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10" style={{ position: "relative", top: topPosition}}>
+           
+            <Link target="_blank" href={personalData.linkedIn}>
+              <BiLogoLinkedin
+                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#E126FA] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={48}
+              />
+            </Link>
+            <Link target="_blank" href={personalData.devio}>
+              <FaStackOverflow
+                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#E126FA] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={48}
+              />
+            </Link>
+            <Link target="_blank" href={personalData.github}>
+              <FaGithub
+                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#E126FA] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={48}
+              />
+            </Link>
+            
+            
           </div>
 
           <div className="flex items-center gap-3" style={{ position: "relative", top: topPosition  }}>
-            <Link href="#contact" className="bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600">
+            {/* <Link href="#contact" className="bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600">
               <button className="px-12 text-xs md:px-12 py-3 md:py-4 bg-[#0d1224] rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out  md:font-semibold flex items-center gap-1 hover:gap-3">
                 <span>Contact me</span>
                 <RiContactsFill size={16} />
               </button>
-            </Link>
+            </Link> */}
 
             {/* <Link className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume}
             >

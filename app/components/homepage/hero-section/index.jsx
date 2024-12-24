@@ -52,7 +52,7 @@ function HeroSection() {
            
             <span className=" text-pink-500">{personalData.name}</span><br></br>
             <span className=" text-[#844fff]" style={{fontSize:"24px",fontWeight:"normal"}}>{personalData.designation}</span><br></br>
-            <span className=" text-[#E3E3E3]" style={{fontSize:"17px",fontWeight:"normal",display:"block",height:"50px",lineHeight:"2"}}>Tech Expert with 10+ years of experience in full-stack development, SaaS platforms and other areas. Proven track record in delivering scalable solutions and driving innovation</span>
+            <span className=" text-[#E3E3E3]" style={{fontSize:"17px",fontWeight:"normal",display:"block",height:"50px",lineHeight:"2"}}>Tech Expert with 10+ years of experience in full-stack development, SaaS platforms and other areas. Proven track record in delivering scalable solutions and driving innovation.</span>
             
           </h1>
           <br></br>

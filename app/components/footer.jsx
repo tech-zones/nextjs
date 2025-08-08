@@ -14,7 +14,6 @@ function Footer() {
           <p className="text-sm">
             © Ayas Huseein {new Date().getFullYear()}
           </p>
-        
         </div>
       </div>
     </div >

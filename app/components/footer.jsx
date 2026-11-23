@@ -12,7 +12,7 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            © Ayas Huseein {new Date().getFullYear()}
+            © Ayas H. {new Date().getFullYear()}
           </p>
         </div>
       </div>

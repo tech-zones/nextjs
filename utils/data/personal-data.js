@@ -1,8 +1,8 @@
 export const personalData = {
-  name: "Ayas H. Abd",
+  name: "Ayas Hussein",
   profile: '/profile.png',
-  designation: "Sr. Software - IT - DevOps - AI Engineer",
-  description: "My name is Ayas Hussein. IT is a field in which I like to grow everyday",
+  designation: "AI & Software Engineering Lead",
+  description: "My name is Ayas H.. Tech is a field in which I like to grow everyday",
   email: 'ayas@techaisys.com',
   phone: '+971502508830',
   phone2: '+9647808135208',
